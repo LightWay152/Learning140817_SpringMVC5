@@ -1,0 +1,34 @@
+﻿SpringMVC5 project:
+- Integrate Hibernate into Spring MVC
+- Ajax and json return type
+
+
+1/ src -> nhatnghe.entity: 5 entities of eshop
+
+2/ src -> nhatnghe.controller:
+- AccountController: login/register function
+(vd1: edit link on browser to .../account/login.php to run test this function)
+(vd1: edit link on browser to .../account/register.php to run test this function)
+- AjaxController: demo about Ajax and json return type
+(vd1: edit link on browser to .../ajax/hello.php to run test this function)
+(vd2: edit link on browser to .../ajax/json1.php to run test this function)
+(vd3: edit link on browser to .../ajax/json2.php to run test this function)
+(vd4: edit link on browser to .../ajax/json3.php to run test this function)
+(vd5: edit link on browser to .../ajax/json4.php to run test this function)
+(vd6: edit link on browser to .../ajax/json5.php to run test this function)
+(vd7: edit link on browser to .../ajax/json6.php to run test this function)
+(vd8: edit link on browser to .../ajax/index.php to run test this function)
+
+3/ WebContent: create index.jsp file at here
+
+4/ WebContent -> js: copy jquery-1.10.2.min.js file and paste at here
+
+5/ WebContent -> WEB-INF:
+(should be create views folder, configs at here for security)
+- lib: remmember copy all of libs to use spring framework and some others libs
+- spring-configs: 
+  + spring-config-mvc.xml file: configs view and controller
+  + spring-config-hibernate.xml file: config to integrate Hibernate into Spring MVC
+- views: include all view (jsp file) of project
+
+6/ WebContent -> web.xml: configs index.jsp file, Dispatcher and UTF-8 Filter
